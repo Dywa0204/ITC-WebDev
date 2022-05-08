@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blossom Boutique</title>
+    <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-logo">
+            <a href="#">
+                <h1>BLOSSOM</h1>
+            </a>
+            <i class="fa fa-bars"></i>
+        </div>
+        <nav class="nav-menus">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#product">PRODUCT</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="social-wrapper">
+            <ul>
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-instagram"></a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <main>
+        <section>
+            <div class="slide-container" id="slider">
+                <div class="slide-content" style="z-index: 5;">
+                    <img src="./images/slider/slide_1.jpg" alt="Slide 1" width="100%">
+                    <div class="slide-text" style="text-align: left;">
+                        <div class="slide-subtitle">Selamat datang di</div>
+                        <div class="slide-title">Blossom Boutique</div>
+                        <div class="slide-desc">
+                            Penyedia produk butik terlengkap se-Indonesia.<br>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-content" style="z-index: 4;">
+                    <img src="./images/slider/slide_2.jpg" alt="Slide 2" width="100%">
+                    <div class="slide-text">
+                        <div class="slide-title">Best seller!</div>
+                        <div class="slide-subtitle">
+                            Dapatkan penawaran terbaik sekarang juga!
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-content" style="z-index: 3;">
+                    <img src="./images/slider/slide_3.jpg" alt="Slide 3" width="100%">
+                    <div class="slide-text">
+                        <div class="slide-title">Kualitas terjamin</div>
+                        <div class="slide-desc">
+                            Beribu pilihan warna dan model
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-content" style="z-index: 2;">
+                    <img src="./images/slider/slide_4.jpg" alt="Slide 4" width="100%">
+                    <div class="slide-text">
+                        <div class="slide-title">Jaminan uang kembali</div>
+                        <div class="slide-desc">
+                            Kepuasan Anda adalah moto kami
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-btn">
+                    <i class="fa fa-angle-left" id="slider-btn-pref"></i>
+                    <i class="fa fa-angle-right" id="slider-btn-next" style="right: 0;"></i>
+                </div>
+                <div class="slider-dots">
+                    <div id="slide-0" class="dot"></div>
+                    <div id="slide-1" class="dot"></div>
+                    <div id="slide-2" class="dot"></div>
+                    <div id="slide-3" class="dot"></div>
+                </div>
+            </div>
+        </section>
+
+        <article id="product">
+            <h1>Produk Kami</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class="product-list"></div>
+            <div class="product-side-modal">
+                <div class="side-modal-container">
+                    <i class="fa fa-times"></i>
+                    <h1></h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <figure></figure>
+                </div>
+            </div>
+        </article>
+
+        <div class="parallax-effect" style="background-image: url(./images/parallax/parallax_1.jpg);">
+            <h1>Sejak 2022</h1>
+        </div>
+
+        <article id="gallery">
+            <h1>Dari Galeri Kami</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class="gallery-list">
+                <div class="gallery-grid"></div>
+        </article>
+
+        <div class="parallax-effect" style="background-image: url(./images/parallax/parallax_2.jpg);">
+            <h1>Siap Melayani Anda</h1>
+        </div>
+
+        <article id="about">
+            <h1>Tentang Kami</h1>
+            <div class="about">
+                <figure>
+                    <img src="./images/about.jpg" alt="Kami">
+                </figure>
+                <div class="about-text">
+                    <p class="about-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                        fugiat nulla pariatur.<br><br>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
+                        veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                    </p>
+                    <blockquote>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </blockquote>
+                </div>
+            </div>
+        </article>
+        <div class="achievement">
+            <div class="achievement-item">
+                <i class="fa fa-usd"></i>
+                <h1>100.000+</h1>
+                <p>Produk Terjual</p>
+            </div>
+            <div class="achievement-item">
+                <i class="fa fa-users"></i>
+                <h1>1.000+</h1>
+                <p>Pelanggan Tetap</p>
+            </div>
+            <div class="achievement-item">
+                <i class="fa fa-smile-o"></i>
+                <h1>100.000+</h1>
+                <p>Review Positif</p>
+            </div>
+            <div class="achievement-item">
+                <i class="fa fa-handshake-o"></i>
+                <h1>100.000+</h1>
+                <p>Testimoni Terpercaya</p>
+            </div>
+        </div>
+
+        <div class="parallax-effect" style="background-image: url(./images/parallax/parallax_3.jpg);">
+            <h1>Selamat Belanja</h1>
+        </div>
+
+        <article id="contact">
+            <h1>Hubungi Kami</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <ul>
+                <li>
+                    <i class="fa fa-map-marker"></i>
+                    D.I.Yogyakarta, Indonesia
+                </li>
+                <li>
+                    <i class="fa fa-phone"></i>
+                    +62 8123-4567-890
+                </li>
+                <li>
+                    <i class="fa fa-envelope-o"></i>
+                    mail@blossomboutique.com
+                </li>
+            </ul>
+            <div class="form-container">
+                <form action="" method="post" novalidate="novalidate">
+                    <input type="text" placeholder="Nama Anda">
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Telepon">
+                    <input type="text" placeholder="Subject">
+                    <textarea placeholder="Ketikkan Pesan Anda di Sini..." rows="5"></textarea>
+                    <button type="button">KIRIM</button>
+                </form>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <ul>
+                <li><h4>Product</h4></li>
+                <li class="footer-product">Batik Tradisional</li>
+                <li class="footer-product">Gaun Pengantin</li>
+                <li class="footer-product">Blouse dan Kemeja</li>
+                <li class="footer-product">Jas dan Almamater</li>
+                <li class="footer-product">Sweater dan Jaket</li>
+                <li class="footer-product">Kaos dan Baju Santai</li>
+            </ul>
+            <ul>
+                <li><h4>Blossom Boutique</h4></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#product">Product</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <ul>
+                <li><h4>Contact</h4></li>
+                <li><a href="#contact">Contact</a></li>
+                <br>
+                <li>
+                    <i class="fa fa-map-marker"></i>
+                    D.I.Yogyakarta, Indonesia
+                </li>
+                <li>
+                    <i class="fa fa-phone"></i>
+                    +62 8123-4567-890
+                </li>
+                <li>
+                    <i class="fa fa-envelope-o"></i>
+                    mail@blossomboutique.com
+                </li>
+                <br>
+                <li class="footer-social-wrapper">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-copiright">
+            <p>© 2022 Blossom Boutique. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
